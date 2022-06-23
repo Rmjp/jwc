@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Script from 'next/script'
 import menu from "/public/Hamburger_icon.svg.png"
+import Link from 'next/link'
 function Nav(){
     return (
         <nav id='nav'>
@@ -16,10 +17,10 @@ function Nav(){
             }`
             }
             </Script>
-           <a href="#">เกี่ยวกับหมอ</a>
-           <a href="#">บทความ</a>
-           <a href="#">จองคิว</a>
-           <a className="icon" id='icon' onClick={() =>addMenu()} href="javascript:void(0)"><Image src={menu} height={20} width={20}/></a>
+           <Link href="#">เกี่ยวกับหมอ</Link>
+           <Link href="#">บทความ</Link>
+           <Link href="#">จองคิว</Link>
+           <Link className="icon" id='icon' onClick={() =>addMenu()} href="javascript:void(0)"><Image src={menu} height={20} width={20}/></Link>
            
         </nav>
         

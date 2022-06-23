@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Nav from '../public/component/Navbar.js'
 import Avatar from '../public/Avatar.png'
 import Rewiveavatar from '../public/rewiveavatar.png'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -17,9 +18,9 @@ export default function Home() {
       <div id='main' className='box center'>
         <h1>หมอหมึก</h1>
         <p>ผู้มีประสบการณ์พยากรณ์กว่า 10 ปี พร้อมคำพยากรณ์ที่แห่นยำ</p>
-        <a href='/'><div className='button'>
+        <Link href='/'><div className='button'>
           <p>จองคิว</p>
-        </div></a>
+        </div></Link>
       </div>
       <div className='box clearfix' id='history'>
         <div className='image hitory'><Image alt='avatar' src={Avatar} height="200" width="200"/></div>
