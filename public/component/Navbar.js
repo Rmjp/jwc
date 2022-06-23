@@ -20,7 +20,7 @@ function Nav(){
            <Link href="#">เกี่ยวกับหมอ</Link>
            <Link href="#">บทความ</Link>
            <Link href="#">จองคิว</Link>
-           <Link className="icon" id='icon' onClick={() =>addMenu()} href="javascript:void(0)"><Image src={menu} height={20} width={20}/></Link>
+           <div className="icon" id='icon' onClick={() =>addMenu()} href="javascript:void(0)"><Image src={menu} height={20} width={20}/></div>
            
         </nav>
         

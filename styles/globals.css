@@ -98,7 +98,7 @@ li {
   margin-right: 10%;
 }
 
-nav a.icon{
+nav .icon{
   display: none;
 }
 
@@ -111,7 +111,7 @@ nav a:horver{
     display: none;
 
   }
-  nav a.icon{
+  nav .icon{
     display: block;
   }
   .nav.responsive{
