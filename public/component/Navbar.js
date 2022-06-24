@@ -4,7 +4,7 @@ import menu from "/public/Hamburger_icon.svg.png"
 import Link from 'next/link'
 function Nav(){
     return (
-        <nav id='nav'>
+        <nav id='nav' className='nav'>
             <Script>
             {`
             function addMenu() {

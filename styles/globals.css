@@ -41,10 +41,10 @@ nav a{
 }
 
 .box {
-  padding-left: 4rem;
-  padding-right: 2rem;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-right: 2rem;
   color: white;
-  margin: 3rem;
 }
 
 .button{
@@ -102,7 +102,7 @@ nav .icon{
   display: none;
 }
 
-nav a:horver{
+nav a:hover{
   color: hsl(0, 0%, 0%) !important;
 }
 
@@ -113,6 +113,12 @@ nav a:horver{
   }
   nav .icon{
     display: block;
+  }
+  nav .icon:hover{
+    cursor: pointer;
+  }
+  .button:hover{
+    cursor: pointer;
   }
   .nav.responsive{
     border-style: none;
@@ -135,22 +141,22 @@ nav a:horver{
 
   .hitory{
     float: none;
-    margin-left: 37%;
-    margin-right: 50%;
+    text-align: center !important;
+    display: block;
+    margin-right: 0;
   }
 
   li {
     float: none;
     margin: 1rem;
     position: relative;
-    width: 33.3%; 
+    width: auto; 
     text-align: center;
-    margin-left: 37%;
-    margin-right: 50%;
+    margin-left: 0%;
+    margin-right: 0%;
   }
   #reviwe h1{
-    margin-left: 40%;
-    margin-right: 30%;
+    text-align: center;
   }
 
   .map{

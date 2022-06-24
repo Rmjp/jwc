@@ -14,7 +14,7 @@ export default function Home() {
         <meta name="description" content="แม่หมอ"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Nav/>
+      <Nav className="nav" />
       <div id='main' className='box center'>
         <h1>หมอหมึก</h1>
         <p>ผู้มีประสบการณ์พยากรณ์กว่า 10 ปี พร้อมคำพยากรณ์ที่แห่นยำ</p>
