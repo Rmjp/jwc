@@ -105,19 +105,23 @@ nav .icon{
 nav a:hover{
   color: hsl(0, 0%, 0%) !important;
 }
+.button:hover{
+  cursor: pointer;
+}
 
 @media screen and (max-width: 1200px) {
   nav a{ 
     display: none;
-
+    background-color: black;
+    margin: 0 !important;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center !important;
   }
   nav .icon{
     display: block;
   }
   nav .icon:hover{
-    cursor: pointer;
-  }
-  .button:hover{
     cursor: pointer;
   }
   .nav.responsive{
